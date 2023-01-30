@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+
+<body>
+    <h1>this is HTML from tutorial</h1>
+    <form>
+        <lable>NAME:</lable>
+       <abbr title="enter your name"><input type="text"></abbr>
+        <br><br>
+        <lable>ROLE:</lable>
+        <abbr title="enter your role"><input type="text"></abbr>
+        <br><br>
+        <lable>EMAIL:</lable>
+        <abbr title="enter your email"><input type="email"></abbr>
+        <br><br>
+        <lable>PASSWORD</lable>
+        <abbr title="enter your password"><input type="password"></abbr>
+        <br><br>
+        <lable>are you eligibal?:</lable>
+        <input type="checkbox" >
+        <br><br>
+        <lable>GENDER:</lable>
+        <input type="radio" name="mygender">MALE
+        <input type="radio" name="mygender">FEMALE
+        <input type="radio" name="mygender">OTHER
+        <br><br>
+        <lable>WRITE ABOUTE YOURSELF:</lable><br>
+        <textarea name="mytext" cols="50" rows="10"></textarea>
+        <br><br>
+        <lable>YOUR DEGREE:</lable>
+        <select>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>BBA</option>
+            <option>MBA</option>
+            <option>BSCIT</option>
+            <option>MSCIT</option>
+            <option>LLB</option>
+            <option>BSC</option>
+            <option>MSC</option>
+        </select>
+        <br><br>
+        <a href="https://www.google.com"><input type="submit"></a>
+        <input type="reset">
+    </form>
+</body>
+</html>
